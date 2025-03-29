@@ -1,0 +1,56 @@
+* {
+    border: 1px solid black;
+    background-color: blanchedalmond;
+}
+
+div, p {
+    border: 2px dotted blue;
+    background-color: lightgray;
+}
+<!---->
+div::before {
+    content: '\21D2';
+}
+
+p {
+    margin: 10%;
+
+}
+
+p span {
+    text-align: center;
+    background-color:violet;
+    display: block;
+}
+
+.random {
+    border: none;
+    background-color: red;
+
+}
+
+.text{
+    background-color: blue;
+}
+
+span.random.class{
+    background-color: yellow;
+}
+
+.random.class{
+    background-color: greenyellow;
+}
+
+#first {
+    color: red;
+}
+
+p#first.second {
+    background-color: #343;
+    color: #fff;
+}
+
+div.second#first {
+    color: #47f;
+    font-size: 2em;
+}

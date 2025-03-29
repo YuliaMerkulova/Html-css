@@ -1,0 +1,58 @@
+[href="#block"]{
+    text-decoration: none;
+    color: lightcoral;
+}
+
+a:link{
+    color: green;
+}
+
+a:visited{
+    color: grey;
+}
+
+input:focus{
+    background-color: violet;
+}
+
+.divdiv:hover{
+    background-color: yellow;
+}
+
+.divdiv:active{
+    background-color: red;
+}
+
+p:first-child{
+    background-color: lightblue;
+}
+
+p:nth-child(2){
+    background-color: lightgreen;
+}
+
+p:last-child{
+    background-color: lightyellow;
+}
+
+div,p{
+    margin:10px;
+    padding:20px;
+    background-color:black;
+}
+
+[hidden]{
+    display: block;
+    background-color:red;
+}
+
+p[hidden]{
+    background-color:green;
+}
+
+div[hidden]{
+    background-color: blue;
+}
+.red.brown.blue{
+    background-color: orange;
+}
