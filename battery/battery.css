@@ -33,6 +33,7 @@
 }
 
 .battery::after{
+    content: "";
     background-color: black;
     position: absolute;
     width: 10px;
